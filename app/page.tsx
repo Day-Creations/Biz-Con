@@ -55,13 +55,28 @@ const Home = () => {
         }}
       >
         <section className="">
-          <h1 className="text-white text-3xl font-semibold px-4 pb-2">What&apos;s next in entertainment, is first on Star Vlad</h1>
+          <h1 className="text-white text-3xl font-semibold px-4 pb-2">
+            What&apos;s next in entertainment, is first on Star Vlad
+          </h1>
 
           <p className="w-[90%] mx-auto py-3 text-center rounded bg-white text-lg font-medium active:scale-95">
-            <Link href={"/"} className=""> Create a free account</Link>
+            <Link href={"/"} className="">
+              {" "}
+              Create a free account
+            </Link>
           </p>
         </section>
       </section>
+
+      {/* What's trending */}
+      <section className="max-w-[78rem] mx-auto md:mt-56 ">
+        <h1 className="px-8 text-center text-3xl">Look what's trending for free on Star Vlad</h1>
+
+        <section>
+          
+        </section>
+      </section>
+    
     </>
   );
 };
